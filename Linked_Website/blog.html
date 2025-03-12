@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blogs</title>
+    <link rel="stylesheet" href="module43.css">
+    <style>
+        level{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        fieldset{
+            margin: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="video.html">video</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="Form.html">form</a></li>
+                        <li><a href="Table1.html">table</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="Form.html">form</a></li>
+                <li><a href="Table1.html">table</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>My Trip to Mountains was charming</h2>
+                <p>Published on <time datetime="2026-03-13">March 13, 2026</time></p>
+            </header>
+            <figure>
+                <img src="images/wallpaperflare.com_wallpaper (1).jpg" alt="" width="100%">
+                <figcaption>Blue Night sky in a forest.</figcaption>
+            </figure>
+            <section>
+                <h4>Trip planning</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, praesentium. Dolorem adipisci enim vitae odit maxime, natus asperiores nobis facere, nisi voluptatum vero sit aspernatur reiciendis. Cupiditate non cum nobis?</p>
+                <h4>Place to visit</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat blanditiis hic totam necessitatibus similique fuga, porro eveniet voluptatum vitae maxime. Voluptatibus eos omnis libero cum exercitationem, nisi hic perspiciatis adipisci.</p>
+                <footer>
+                    <p>Tags: <a href="sky">sky</a>
+                        <a href="forest">forest</a></p>
+                </footer>
+
+                <h2>Please fill up the form</h2>
+                <form>
+                    <level for="name">
+                        Your Name: 
+                        <input id="name" type="text" placeholder="Your Name..">
+                    </level>
+                    <level for="email">
+                        Your Email:
+                        <input type="email" name="" id="email" placeholder="Your Email..">
+                    </level>
+                    <level for="Phone">
+                        Your Phone:
+                        <input type="Phone" name="" id="Phone" placeholder="Your Phone No..">
+                    </level>
+                    <lebel>
+                        Your Passord: 
+                        <input type="password" name="" id="Password" placeholder="Your Password..">
+                    </lebel>
+
+                    <fieldset>
+                        <legend>Pick one Pitha</legend>
+                        <label for="chitoy">
+                            <input type="radio" name="Pitha" id="Chitoy">
+                            chitoy
+                        </label><br>
+                        <lebel for="Vapa">
+                            <input type="radio" name="Pitha" id="Vapa">
+                            Vapa
+                        </label>
+                        <lebel for="Puri"><br>
+                            <input type="radio" name="Pitha" id="Puri">
+                            Puri
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Pick one or more vorta</legend>
+                        <lebel for="sorisa"><br>
+                            <input type="checkbox" name="vorta" id="sorisa">
+                            sorisa
+                        </label>
+                        <lebel for="Sutki"><br>
+                            <input type="checkbox" name="vorta" id="Sutki">
+                            Sutki
+                        </label>
+                        <lebel for="Alur"><br>
+                            <input type="checkbox" name="vorta" id="ChilAluri">
+                            Alur
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Special Instruction</legend>
+                        <textarea name="" id="" cols="60" rows="4"></textarea>
+                    </fieldset>
+
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p><small>&copy; 2029. All Rights resurved</small></p>
+    </footer>
+</body>
+</html>

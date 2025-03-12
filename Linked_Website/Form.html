@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+        }
+        .login-form-con{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            /* border: 1px solid red; */
+        }
+        .Login-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            /* border: 2px solid blueviolet; */
+            width: 50%;
+        }
+        .Login-form input{
+            margin-top: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="video.html">video</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">video</a></li>
+                        <li><a href="Form.html">form</a></li>
+                        <li><a href="Table1.html">table</a></li>
+                        <li><a href="blog.html">blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="Form.html">form</a></li>
+                <li><a href="Table1.html">table</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav>
+        <div>
+        <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Blog</a>
+        <a href="">About</a>
+    </div>
+        <a href="">Login</a>
+    </nav>
+
+    <section class="login-form-con">
+    <form class="Login-form">
+        <h3>Please Login</h3>
+        <input type="email" placeholder="Your Email" required>
+        <input type="password" placeholder="password" required>
+        <input type="submit" value="Login">
+    </form></section>
+</body>
+</html>
