@@ -10,7 +10,8 @@
         }
         td, th{
             border: 1px solid black;
-            padding: 5px 10px;
+            padding: 5px 15px;
+            text-align: center;
         }
         th{
             font-size: 1.2rem;
@@ -18,6 +19,7 @@
         caption{
             font-size: 1.5rem;
             margin-bottom: 10px;
+            margin-top: 20px;
             color: blue;
         }
     </style>
@@ -77,5 +79,57 @@
         <li>Table Heading cell: th</li>
         <li>Caption: Caption</li>
     </ul>
+
+    <table border="1">
+        <caption>Student Information of University:</caption>
+        <tr>
+            <th>SL NO</th>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Batch</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Hossain</td>
+            <td>1094</td>
+            <td rowspan="2">61A</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Omar</td>
+            <td>1095</td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>Invoice</caption>
+        <tr>
+            <th>Item</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>Price $</th>
+        </tr>
+        <tr>
+            <td>Paperclips (Box)</td>
+            <td>100</td>
+            <td>1</td>
+            <td>103.58</td>
+        </tr>
+        <tr>
+            <td>Paper(Case)</td>
+            <td>10</td>
+            <td>45</td>
+            <td>56.73</td>
+        </tr>
+        <tr>
+            <td colspan="3">Subtotal</td>
+            <td>610.34</td>
+        </tr>
+        <tr>
+            <td colspan="2">Tax</td>
+            <td>7%</td>
+            <td>42.64</td>
+        </tr>
+    </table>
 </body>
 </html>
